@@ -12,7 +12,8 @@
 
 <br>如果大家觉得不错，欢迎大家访问关注我的博客账号：http://blog.csdn.net/htq__
 
-应用截图：
+应用截图：界面是不是很美呢？<br>
+
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161720.jpg)
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161732.jpg)
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161738.jpg)
