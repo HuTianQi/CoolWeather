@@ -12,6 +12,11 @@
 
 <br>如果大家觉得不错，欢迎大家访问关注我的博客账号：http://blog.csdn.net/htq__
 
+该App已在各大app Market上线：<br>
+<a href="http://shouji.baidu.com/software/9706112.html">百度手机助手</a> 
+<br><a href="http://zhushou.360.cn/detail/index/soft_id/3355443?recrefer=SE_D_%E9%85%B7%E6%88%91%E5%A4%A9%E6%B0%94">360手机助手</a> 
+
+
 应用截图：界面是不是很美呢？<br>
 
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161720.jpg)
