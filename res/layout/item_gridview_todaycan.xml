@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/item_todayc_bg" >
+
+    <ImageView
+        android:id="@+id/image_index"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+		android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/dothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/image_index"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff" />
+    
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/image_index"
+        android:layout_marginLeft="5dp"
+		android:layout_below="@id/dothing"
+        android:textSize="16sp" />
+    
+    <ImageView 
+        android:id="@+id/image_click"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+		android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+		android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"/>
+	
+</RelativeLayout>

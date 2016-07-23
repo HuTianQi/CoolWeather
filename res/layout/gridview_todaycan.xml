@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout 
+        android:id="@+id/data_linear"
+      
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+         <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="当前日期为：" />
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="TextView" />
+    </LinearLayout>
+    
+    <GridView 
+        android:id="@+id/gridview"
+        android:layout_below="@id/data_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+		android:numColumns="2"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+    <TextView 
+        android:id="@+id/todaycan_dec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridview"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+   
+
+</RelativeLayout>

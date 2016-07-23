@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <!--此处必须用相对布局，线性布局不能做到让第二个iv显示在第一个iv控件上  -->
+    <RelativeLayout
+        android:layout_width="95.0dip"
+        android:layout_height="150dip"
+        android:orientation="vertical"
+        android:background="@drawable/skin_img_item_background" >
+
+        <ImageView
+            android:id="@+id/gridview_item_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+         <ImageView
+        android:id="@+id/gridview_item_checked_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/gridview_item_iv"
+        android:layout_alignRight="@id/gridview_item_iv"
+        android:background="@drawable/skin_ico_checked"/>
+    </RelativeLayout>
+
+</LinearLayout>

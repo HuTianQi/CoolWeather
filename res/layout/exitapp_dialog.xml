@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exitapp_text_bg" >
+
+    <TextView
+        android:id="@+id/exitapp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="@drawable/exitapp_text_bg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/exitapp_text"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:background="#499BF7" >
+
+        <Button
+            android:id="@+id/leftbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/rightbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</RelativeLayout>

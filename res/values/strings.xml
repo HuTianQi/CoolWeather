@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">酷我天气</string>
+    <string name="author">酷我天气   @：htq All rights reserved </string>
+    <string name="about_me">          
+           作者：@：htq 爱丽颖的颖火虫
+    blog:http://blog.csdn.net/htq__欢迎大家访问我的博客  </string>
+   
+    <string name="today_can">生活指数</string>
+    <string name="weather">天气预报</string>
+    <string name="pleaseinput">请输入城市名:</string>
+    <string name="search">查询</string>
+    <string name="citymanager">城市管理</string>
+    <string name="pollution_no">空气清新</string>
+    <string name="pollution_little">空气良好</string>
+    <string name="pollution_mild">轻度污染</string>
+    <string name="polltion_moderate">中度污染</string>
+    <string name="polltion_severe">重度污染</string>
+    <string name="edittext_hint">请输入城市名</string>
+    <string name="net_fail">网络请求失败</string>
+    <string name="click_exit">再次按下程序退出</string>
+    <string name="no_data">暂无数据</string>
+    <string name="color_green">#00FF00</string>
+    <string name="color_gandb">#00FFFF</string>
+    <string name="color_orange">#FF9F00</string>
+    <string name="color_red">#FF0000</string>
+    <string name="color_balck">#000000</string>
+    <string name="color_bottombg">#B3D7F3</string>
+    <string name="color_bottombgn">#888888</string>
+    <string name="getdata_fail">获取数据失败</string>
+    <string name="input_truename">请输入正确的城市名</string>
+    <string name="city_default">武汉</string>
+    <string name="set_normal">设为默认</string>
+    <string name="slogan">简约 好用的天气APP</string>
+    <string name="add_city_text">热门城市</string>
+    <string name="loading">加载中</string>
+
+</resources>

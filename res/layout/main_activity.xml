@@ -1,0 +1,139 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/left_layout_bg">
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/include_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/homepager_activity" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#EEffffff" >
+ 
+<LinearLayout
+     android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/left_layout_bg">
+        <ImageView
+            android:id="@+id/text1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cool_weather_icon"
+            android:layout_gravity="center_horizontal"
+             />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:text="@string/app_name"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:text="@string/slogan"/>
+        
+</LinearLayout>
+        <Button
+             android:id="@+id/btn_city_manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/drawerlayout_bt_bg"
+            android:drawableLeft="@drawable/ic_dl_green_m"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="城市管理"
+            android:onClick="onClick"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_life"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_city_manager"
+            android:background="@drawable/drawerlayout_bt_bg"
+            android:drawableLeft="@drawable/ic_dl_green_m"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="生活指数"
+            android:onClick="onClick"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_change_bag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_life"
+            android:background="@drawable/drawerlayout_bt_bg"
+             android:drawableLeft="@drawable/ic_dl_green_m"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="更换皮肤"
+            android:onClick="onClick"
+            android:textSize="18sp" />
+ <Button
+            android:id="@+id/btn_share_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_change_bag"
+            android:background="@drawable/drawerlayout_bt_bg"
+             android:drawableLeft="@drawable/ic_dl_green_m"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="分享应用"
+            android:onClick="onClick"
+            android:textSize="18sp" />
+     
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_share_app"
+            android:background="@drawable/drawerlayout_bt_bg"
+            android:drawableLeft="@drawable/ic_dl_red"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="关于作者"
+            android:onClick="onClick"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/exitapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/drawerlayout_bt_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="退出程序"
+            android:onClick="onClick"
+            android:textSize="18sp" />
+        
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

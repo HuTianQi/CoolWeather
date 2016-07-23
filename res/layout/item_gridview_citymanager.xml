@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/item_citym_normal_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/grid_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:maxLines="1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/city_item_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
+
+    <com.htq.coolweather.base.CHImageView
+        android:id="@+id/grid_weatherimage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/grid_city" />
+
+    <TextView
+        android:id="@+id/grid_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_below="@id/grid_weatherimage" />
+
+    <TextView
+        android:id="@+id/grid_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_below="@id/grid_weather" />
+
+    <Button
+        android:id="@+id/grid_set_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/citym_normal_bg"
+        android:text="@string/set_normal"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:focusable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/grid_temp"
+        android:layout_marginTop="10dp" />
+    
+    <TextView
+        android:id="@+id/grid_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="5dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:clickable="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
