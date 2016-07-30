@@ -12,7 +12,7 @@
 
 <br>如果大家觉得不错，欢迎大家访问关注我的博客账号：http://blog.csdn.net/htq__
 
-该App已在各大app Market上线：<br>
+该App已在各大app Market上线：评分均为7.5分及以上<br>
 <a href="http://shouji.baidu.com/software/9706112.html">百度手机助手</a> 
 <br><a href="http://zhushou.360.cn/detail/index/soft_id/3355443?recrefer=SE_D_%E9%85%B7%E6%88%91%E5%A4%A9%E6%B0%94">360手机助手</a> 
 
