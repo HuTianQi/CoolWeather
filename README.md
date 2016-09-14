@@ -32,7 +32,7 @@
 
 #相关链接
 【HQ_QQ：一款高仿腾讯QQ的IM通讯App，界面几乎与腾讯QQ一模一样】 https://github.com/HuTianQi/HTQ_QQ  
-【CoolWeather:一款天气App】 https://github.com/HuTianQi/CoolWeather  
+【美女笔记:一款类似印象笔记的App】https://github.com/HuTianQi/YingBeautyNote  
 
 
 #LICENSE
