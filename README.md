@@ -30,6 +30,11 @@
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161834.jpg)
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161910.jpg)
 
+#相关链接
+【HQ_QQ：一款高仿腾讯QQ的IM通讯App，界面几乎与腾讯QQ一模一样】 https://github.com/HuTianQi/HTQ_QQ  
+【CoolWeather:一款天气App】 https://github.com/HuTianQi/CoolWeather  
+
+
 #LICENSE
 The MIT License (MIT)
 
