@@ -31,6 +31,7 @@
 ![image](https://github.com/HuTianQi/CoolWeather/blob/master/CoolWeather_ScreenShot/S60718-161910.jpg)
 
 #相关链接
+【QQ：一款高仿腾讯QQ的IM App，已经实现了纯文本，表情，图片，位置，语音等信息的发送以及增，删，查好友等功能,代码质量非常高】[https://github.com/HuTianQi/QQ](https://github.com/HuTianQi/QQ)  
 【HQ_QQ：一款高仿腾讯QQ的IM通讯App，界面几乎与腾讯QQ一模一样】 https://github.com/HuTianQi/HTQ_QQ  
 【美女笔记:一款类似印象笔记的App】https://github.com/HuTianQi/YingBeautyNote  
 
